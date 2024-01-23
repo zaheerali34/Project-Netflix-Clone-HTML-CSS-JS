@@ -1,0 +1,406 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.line {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(39, 39, 39);
+    margin-top: 7rem;
+}
+
+/* Header Code Start */
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(4,9,30,0.6), rgb(4,9,30,0.6)), url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.header .head .logo img {
+    width: 120px;
+}
+
+.header .head .btn button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.header .head .btn button:hover {
+    background-color: rgb(245, 113, 113);
+}
+
+.header .home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 82vh;
+    padding: 25px;
+}
+
+.header h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.header p {
+    color: white;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+form input {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid rgb(61, 61, 61);
+    outline: none;
+    border-radius: 5px;
+    background-color: rgba(20, 20, 20, 0.644);
+
+}
+
+form input::placeholder {
+    color: rgb(177, 172, 172);
+}
+
+form .get {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    width: 13rem;
+    height: 2.7rem;
+    padding-left: 20px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+form .get:hover {
+    background-color: rgb(245, 113, 113);
+}
+
+/* Header Code End */
+
+/* Section TV Code Strat */
+
+.section_TV {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 30px;
+    margin-top: 15rem;
+}
+
+.section_TV  .section_bar h1 {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.section_TV  .section_bar p {
+    color: white;
+    padding-top: 10px;
+    width: 70%;
+    line-height: 25px;
+}
+
+.section_TV .video {
+    width: 60%;
+    height: 50vh;
+    background-image: url(../img/tv.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section_TV .video video {
+    width: 99%;
+    height: 55%;
+    position: relative;
+    top: 4.2rem;
+}
+
+/* Section TV Code End */
+
+/* Section TV Code Start */
+
+.section_two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    gap: 100px;
+    padding: 20px;
+}
+
+.section_two .phon {
+    width: 50%;
+    height: 40vh;
+    background-image: url(../img/mobile-0819.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_two .box_bar {
+    width: 60%;
+    height: 4rem;
+    background-color: black;
+    margin-top: 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 2px rgb(87, 87, 87);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.section_two .box_bar .stranger h3 {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.section_two .box_bar .box_shot {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(78, 147, 250);
+    border-radius: 50%;
+}
+
+.section_two .box_bar .stranger p {
+    color: rgb(78, 78, 255);
+    padding-top: 0.5px;
+    font-size: 13px;
+}
+
+.section_two .box_bar img {
+    width: 3.5rem;
+    padding: 10px;
+}
+
+
+.section_two .text_dow h1 {
+    font-size: 2.5rem;
+    color: white;
+    width: 70%;
+}
+
+.section_two .text_dow p {
+    color: white;
+    padding-top: 20px;
+    width: 70%;
+}
+
+/* Section TV Code End */
+
+/* Section There Code Start */
+
+.section_there {
+    color: white;
+    padding-top: 10rem;
+    padding-left: 2rem;
+
+}
+
+.section_there h1 {
+    width: 20%;
+    font-size: 2rem;
+}
+
+.section_there p {
+    width: 30%;
+    line-height: 25px;
+    padding-top: 1rem;
+}
+
+/* Section There Code End */
+
+/* Section Fover Code Start */
+
+.section_fover {
+    display: flex;
+    align-items: center;
+    margin-top: 7rem;
+    gap: 30px;
+    padding: 20px;
+}
+
+.section_fover .img_kid img {
+    width: 35rem;
+}
+
+.section_fover .kids_text h1 {
+    color: white;
+    font-size: 3rem;
+    width: 100%;
+} 
+
+.section_fover .kids_text p {
+    color: white;
+    padding-top: 1rem;
+    width: 90%;
+    line-height: 25px;
+}
+
+/* Section Fover Code End */
+
+/* Section Questions Code Start */
+
+.section_qusetion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 7rem;
+}
+
+.section_qusetion h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.section_qusetion .mine_box {
+    width: 80%;
+    height: 40%;
+    background-color: rgb(56, 56, 56);
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.mine_box .questions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.mine_box .questions h2 {
+    color: white;
+    font-weight: 100;
+}
+
+.mine_box .questions .icon {
+    transition: all 0.4s;
+}
+
+.mine_box .questions .icon.active {
+    transform: rotate(-180deg);
+}
+
+.mine_box .answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.mine_box .answer p {
+    color: white;
+    padding: 1rem;
+    line-height: 25px;
+}
+
+.section_qusetion p {
+    padding-top: 80px;
+    color: white;
+}
+
+.section_qusetion form {
+    padding-top: 20px;
+}
+
+/* Section Questions Code End */
+
+/* Footer Code Start */
+.footer {
+    margin-top: 2rem;
+    padding: 40px;
+}
+
+.footer p:nth-of-type(1) {
+    color: rgb(173, 173, 173);
+    text-decoration: underline;
+    padding-left: 85px;
+}
+
+.footer nav  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.footer nav ul {
+    list-style: none;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 25px; 
+}
+
+.footer nav ul li {
+    color: rgb(173, 173, 173);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer .En_box {
+    width: 9rem;
+    height: 3rem;
+    border: 2px solid rgb(173, 173, 173);
+    border-radius: 5px;
+    margin: 2rem  5.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.footer .En_box span {
+    color: white;
+}
+
+.footer .En_box img {
+    width: 1rem;
+}
+
+.footer p {
+    color: rgb(173, 173, 173);
+    text-decoration: none;
+    padding-left: 5.3rem;
+}
+
+/* Footer Code End */

@@ -1,0 +1,119 @@
+@media (max-width:768px) {
+    .section_TV {
+        flex-direction: column-reverse;
+        text-align: center;
+    }  
+
+    .section_TV .section_bar p {
+        width: 100%;
+        padding-left: 200px;
+    }
+
+    .section_two {
+        flex-direction: column;
+    }
+
+    .section_two .phon .box_bar {
+        width: 13rem;
+        padding: 15px;
+    }
+
+    .section_two .phon {
+        text-align: center;
+    }
+
+    .section_two .text_dow {
+        padding-left: 8rem;
+        text-align: center;
+    } 
+
+    .section_fover {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .section_TV .video {
+        width: 100%;
+    }
+
+    .section_TV .section_bar p {
+        width: 123%;
+        padding-right: 365px;
+    }
+
+    .section_two .phon .box_bar {
+        width: 20rem;
+        padding: 15px;
+    }
+
+    .section_two .text_dow h1 {
+        width: 130%;
+        padding-right: 15rem;
+        font-size: 2rem;
+    }
+
+    .section_there p {
+        width: 87%;
+    }
+
+    .section_fover {
+        flex-direction: column;
+    }
+
+    .section_fover .img_kid img {
+        width: 100%;
+    }
+
+    .section_fover .kids_text h1 {
+        font-size: 1.5rem;
+    }
+    
+    .section_qusetion h1 {
+        font-size: 1.3rem;
+    }
+
+    .section_qusetion .mine_box .questions h2 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .section_qusetion p {
+        padding: 30px;
+        line-height: 27px;
+        text-align: center;
+    }
+
+    .section_qusetion form {
+        flex-direction: column;
+    }
+
+    .section_qusetion form button {
+        width: 70%;
+    }
+
+    .footer p {
+        padding-right: 70px;
+    }
+
+    .footer nav {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .footer nav ul:nth-of-type(3) {
+        padding-right: 40px;
+    }
+
+    .footer .En_box {
+        position: relative;
+        right: 35px;
+    }
+}
+
+@media  (max-width: 580px) {
+    .section_fover .img_kid img {
+        width: 100%;
+    }
+}
